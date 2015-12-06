@@ -33,7 +33,7 @@ var default_config = {
         flexible_resultpage: false,
         version: '4.1.0',
         remove_powered_by: false,
-        sound: false,
+        sound: true,
         messages: {
             passed: '合格！',
             failed: '不合格',
