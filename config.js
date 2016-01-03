@@ -1,26 +1,8 @@
 var config = {
   "settings":{
     "lang":"ja",
-    "title":"\u99ac\u8853\u30af\u30a4\u30ba",
+    "title":"馬術クイズ",
     "theme_internal":"basic_blue"
   },
-  "questions":[
-    {"question":"次のうち、馬をジャンプさせないのはどの競技？",
-    "choice":[
-      "馬場馬術",
-      "障害馬術",
-      "総合馬術",
-      "エンデュランス馬術",
-    ],
-    "answer":"馬場馬術"
-  },
-    {"question":"次の歩法のうち、前進しないものはどれ？",
-    "choice":[
-      "パッサージュ",
-      "ピアッフェ",
-      "ハーフパス",
-      "常歩",
-    ],
-    "answer":"ピアッフェ"
-  }
-]}
+  "questions":questions_data
+}
