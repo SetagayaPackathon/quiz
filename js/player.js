@@ -50,19 +50,7 @@ var default_config = {
             confirm_mark: '終了して採点処理を行います。よろしいですか？'
         }
     },
-    questions: [
-        {question: "◯石◯鳥", answer: ["一","二"], label:["A", "B"], type: 'fill-in-multi', section:0},
-        {question: "◯肉◯食", answer: ["弱","強"], type: 'fill-in-multi', section:0},
-        {question: "<b>There are three dice in the picture.</b><br>[[images/dice.png]]", answer: "true", type: 'true-false', feedback: ['exactly', 'There are three dice. '], section:0},
-        {question: "<b>What are in the picture?</b> <br>(hint: four characters)<br>[[images/dice.png]]", answer: ['dice'], type: 'fill-in', feedback: ['exactly', 'There are three dice. '], section:0},
-        {question: "<b>What are in the picture?</b> <br>[[images/dice.png]]", choice: ['dice', 'maze', 'pen'], answer: 'dice', type: 'button', section:0},
-        {question: "<b>Which word should be in the blank?</b><br> one, two, ( ___ ), four, five", choice: ['three', 'tree', 'free'], answer: 'three', feedback: '1,2,3,4,5', section:0},
-        {question: "<b>Which word should be in the blank?</b><br>He ( ___ ) a book.", choice: ['has', 'is', 'was'], answer: 'has', feedback: ['Correct!!', 'He can not be a book.'], section:1},
-        {question: "<b>Which word should be in the blank?</b><br>My name ( ___ ) Ken.", choice: ['is', 'were', 'been'], answer: 'is', feedback: ['Correct!!', '"Ken" is a singular noun', 'been is "past participle" of be'], section:1},
-        {question: "<b>Which words can fill the blank?</b><br>This is a ( ___ ) car.", choice: ['expensive', 'cheap', 'white'], answer: ['cheap', 'white'], feedback: ['Correct!!', 'Expensive starts with a vowel'], section:1},
-        {question: "<b>Which words can fill the blank?</b><br>This is ( ___ ) car.", choice: ['a', 'my', 'broken'], answer: ['a', 'my'], feedback: 'broken requires "a" infront of it', section:1},
-        {question: "<b>Which words can fill the blank?</b><br>This is a ( ___ ).", choice: ['car', 'bus', 'data'], answer: ['car', 'bus'], section:1}
-	]
+    questions: []
 };
 var scorm12 = {correct: 'correct', incorrect: 'wrong'},
     scorm2004 = {correct: 'correct', incorrect: 'incorrect'},
